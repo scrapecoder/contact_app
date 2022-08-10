@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "firebase": "./src/firebase",
+          "navigator": "./src/navigator",
+          "module": "./src/screens/module",
+          "constant": "./src/constant",
+          "util": "./src/utils",
+          "component": "./src/screens/presentation/component",
+          "container": "./src/screens/presentation/container",
+          "commonComponent": "./src/screens/component"
+        }
+      }
+    ]
+  ]
+}
